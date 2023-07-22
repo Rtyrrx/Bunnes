@@ -900,6 +900,263 @@ ul {
   }
 }
 
+@media screen and (max-width:430px){
+  .container {
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 1;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    padding-right: 55px;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 5px;
+    left: 20px;
+    width: 20px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 6;
+    margin-top: 5px;
+    overflow: scroll;
+  }
+  .menu__box {
+    display: block;
+    position:fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 320px;
+    height: 100%;
+    /* margin: 0; */
+    padding: 80px 0;
+    list-style: none;
+    
+    
+    transition-duration: .95s;
+    opacity: 7.5;
+    z-index: 5;
+    overflow: scroll;
+    /* max-width: 320px; */
+    margin: 0 auto;
+  }
+
+  .bunnes {
+    height: 550px;
+  }
+
+  .bunnes img {
+    height: 120px;
+  }
+
+  .header-wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  .logo a{
+    font-size: 17px;
+  }
+
+  .items i{
+    padding: 0 5px;
+    font-size: 12px;
+  }
+
+  .middle {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .middle-image {
+    height: 170px;
+    width: 285px;
+    padding-bottom: 20px;
+  }
+
+  .middle img {
+    height: 170px;
+    width: 285px;
+    transition: 2s;
+    display: block;
+  }
+
+  .classic-slider {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .classic-inner{
+    width: 120px;
+    display: none;
+  }
+
+  .classic-inner:nth-child(1),
+  .classic-inner:nth-child(2),
+  .classic-inner:nth-child(3),
+  .classic-inner:nth-child(4){
+    display: inline-block;
+  }
+
+
+  .classic-text  a{
+    font-size: 8px;
+}
+  .classic-text  p{
+    font-size: 8px;
+}
+
+  .bl-img {
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .bl-img:hover {
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .bl-img img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    transition: 0.5s;
+    display: block;
+  }
+  
+  .img-1 {
+    opacity: 1;
+  }
+  
+  .img-2 {
+    opacity: 0;
+    width: 120px;
+    height: 120px;
+  }
+
+  .Vol-3-inner{
+    width: 120px;
+    display: none;
+  }
+
+  .Vol-3-inner:nth-child(1),
+  .Vol-3-inner:nth-child(2),
+  .Vol-3-inner:nth-child(3),
+  .Vol-3-inner:nth-child(4){
+    display: inline-block;
+  }
+
+  .Vol-3-slider {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .Vol-3-text a{
+    font-size: 8px;
+  }
+  .Vol-3-text p{
+    font-size: 8px;
+  }
+
+  .collab-slider-cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .collab-inner {
+    justify-content: center;
+  }
+
+  .collab-blocks {
+    padding: 0;
+  }
+
+  .collab-blocks img {
+    width: 304px;
+    height: 304px;
+    transition: 2s;
+    display: block;
+  }
+
+  .collab-slider-blocks{
+    width: 120px;
+    display: none;
+  }
+
+  .collab-slider-blocks:nth-child(1),
+  .collab-slider-blocks:nth-child(2),
+  .collab-slider-blocks:nth-child(3),
+  .collab-slider-blocks:nth-child(4){
+    display: inline-block;
+  }
+
+  .collab-slider-blocks-text a{
+    font-size: 8px;
+  }
+  .collab-slider-blocks-text p{
+    font-size: 8px;
+  }
+
+  .first-block {
+    flex-direction: column;
+  }
+
+  .first-block-links {
+    flex-direction: column;
+  }
+
+  .first-block-links-f ul {
+    padding-bottom: 20px;
+  }
+
+  .input-box input{
+    width: 125px;
+    font-size: 11px;
+  }
+  .input-box button{
+    font-size: 11px;
+  }
+
+  .second-block{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+  }
+
+  .second-block-links{
+    width: fit-content;
+    padding-bottom: 20px;
+  }
+
+  .second-block-links li{
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 340px) {
   .container {
     max-width: 300px;
